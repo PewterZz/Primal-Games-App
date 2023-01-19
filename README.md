@@ -1,2 +1,2 @@
-# Primal-Games-App
+# Primal Games App
 A marketplace for android games
