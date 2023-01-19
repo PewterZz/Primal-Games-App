@@ -7,6 +7,22 @@ Members :
 - Vincent Yono
 - Justin Theofilus Yonathan
 
+Main Functions : 
+- Making user profile
+- Authenticating user
+- Game page
+- Searching for games
+- Placing games in your personal cart
+- Realistic payment methods
+- transactions page
+- friend searching
+- friend page
+- library page
+
+Video demonstrations : 
+- https://drive.google.com/file/d/1H0Ei7diVneWE9PGMJinyMHPfol_NLTVE/view?usp=sharing
+- https://drive.google.com/file/d/1EatRrJJ-EOZGLcB8eLi8uGwBFyPW5jrB/view?usp=sharing
+
 ### Main Directory
 Navigate to the main directory (you will probably start out in the main directory so you can skip this step) :
 ```
