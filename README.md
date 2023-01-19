@@ -3,9 +3,9 @@
 Welcome to the project, in order to run the program, you will need to navigate to the main directory and the backend directory on three separate console windows.
 
 ### Main Directory
-Navigate to the main directory:
+Navigate to the main directory (you will probably start out in the main directory so you can skip this step) :
 ```
-cd path/to/main/directory
+cd Primal-Games-App
 ```
 Install the necessary packages:
 ```
@@ -17,9 +17,9 @@ Start the development server:
 npx expo start --tunnel
 ```
 ### Backend Directory
-Navigate to the backend directory:
+Navigate to the backend directory (start from the main directory) :
 ```
-cd path/to/backend/directory
+cd backend
 ```
 Install the necessary packages:
 ```
