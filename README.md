@@ -39,7 +39,9 @@ npm install @expo/cli
 Start the development server:
 ```
 npx expo start --tunnel
-```
+```  
+To use the barcode that is provided you will need to install expo go from the app or play store and you will need to either scan the barcode on the app or from your camera directly. Keep in mind that the look of the app is going to be a little different as we have not completely considered all phone sizes.  
+
 ### Backend Directory
 Navigate to the backend directory (start from the main directory) :
 ```
