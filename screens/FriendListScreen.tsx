@@ -38,7 +38,7 @@ const Item = (items: any) => {
       <TouchableHighlight
         underlayColor={"transparent"}
         key={object.id}
-        onPress={() => navigation.navigate("LibGamePage", object)}
+        onPress={() => {}}
       >
         <View style={styles.button}>
           <Image
@@ -355,8 +355,8 @@ const styles = EStyleSheet.create({
   },
 
   searchbar: {
-    top: "-1.75rem",
-    width: "18rem",
+    bottom: "2.4rem",
+    width: "16rem",
     alignSelf: "flex-end",
     marginRight: "1rem",
   },

@@ -39,7 +39,6 @@ import StartScreen from "../screens/StartUpScreen";
 import SignUpScreen from "../screens/SignUp";
 import LogInScreen from "../screens/LoginScreen";
 import { UserStore } from "../redux/reducers/authenticator_reducer";
-import CameraPage from "../screens/Camera";
 import CartPageScreen from "../screens/CartScreen";
 
 export default function Navigation({
@@ -87,11 +86,6 @@ function RootNavigator() {
       <Stack.Screen
         name="LibGamePage"
         component={LibGamePageScreen}
-        options={{ headerShown: false }}
-      />
-      <Stack.Screen
-        name="CameraPage"
-        component={CameraPage}
         options={{ headerShown: false }}
       />
       <Stack.Screen

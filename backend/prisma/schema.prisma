@@ -12,7 +12,7 @@ datasource db {
 
 model game {
   id             Int            @id @default(autoincrement())
-  title          String         @db.VarChar(100)
+  title          String         @db.VarChar(250)
   description    String         @db.Text
   developer      String         @db.VarChar(40)
   publisher      String         @db.VarChar(40)
@@ -31,7 +31,7 @@ model game {
 }
 
 model genre {
-  name  String @id @db.VarChar(20)
+  name  String @id @db.VarChar(140)
   games game[]
 }
 
