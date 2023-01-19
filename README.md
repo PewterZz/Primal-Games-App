@@ -24,7 +24,7 @@ Video demonstrations :
 - https://drive.google.com/file/d/1EatRrJJ-EOZGLcB8eLi8uGwBFyPW5jrB/view?usp=sharing  
 
 Video Tutorial : 
-
+- https://www.youtube.com/watch?v=jvL5Aa08u3c
 
 ### Main Directory
 Navigate to the main directory (you will probably start out in the main directory so you can skip this step) :
