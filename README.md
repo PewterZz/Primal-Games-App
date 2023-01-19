@@ -1,6 +1,11 @@
 # Primal Games Marketplace
 ## Getting Started
-Welcome to the project, in order to run the program, you will need to navigate to the main directory and the backend directory on three separate console windows.
+Welcome to the Primal games project, in order to run the program, you will need to navigate to the main directory and the backend directory on three separate console windows.  
+
+Members : 
+- Peter Nelson Subrata - 2502023562
+- Vincent Yono
+- Justin Theofilus Yonathan
 
 ### Main Directory
 Navigate to the main directory (you will probably start out in the main directory so you can skip this step) :
