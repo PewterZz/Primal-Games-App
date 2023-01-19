@@ -21,7 +21,10 @@ Main Functions :
 
 Video demonstrations : 
 - https://drive.google.com/file/d/1H0Ei7diVneWE9PGMJinyMHPfol_NLTVE/view?usp=sharing
-- https://drive.google.com/file/d/1EatRrJJ-EOZGLcB8eLi8uGwBFyPW5jrB/view?usp=sharing
+- https://drive.google.com/file/d/1EatRrJJ-EOZGLcB8eLi8uGwBFyPW5jrB/view?usp=sharing  
+
+Video Tutorial : 
+
 
 ### Main Directory
 Navigate to the main directory (you will probably start out in the main directory so you can skip this step) :
