@@ -84,4 +84,10 @@ https://drive.google.com/drive/folders/18zEXc5Fop0Ezsc1ezWRZRDo2EKLptKT6?usp=sha
 Once you have completed these steps in all three console windows, the program should be running and ready for use.
 You can also verify the status of the program by visiting the url displayed on the expo development server.
 
-Please make sure that you have all the dependencies installed for this program to run. If you face any issues, feel free to raise an issue on the Github repository.
+Please make sure that you have all the dependencies installed for this program to run. If you face any issues, feel free to raise an issue on the Github repository.  
+
+# Changes Made  
+
+![alt text](path/to/Screenshot_20230121-163506_Expo_Go.jpg)
+
+![alt text](path/to/Screenshot_20230121-163514_Expo_Go.jpg)
