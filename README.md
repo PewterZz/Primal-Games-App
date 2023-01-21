@@ -46,6 +46,7 @@ If you are having trouble starting or connecting to it then use the one below in
 npx expo start --tunnel
 ```  
 To use the barcode that is provided you will need to install expo go from the app or play store and you will need to either scan the barcode on the app or from your camera directly. Keep in mind that the look of the app is going to be a little different as we have not completely considered all phone sizes.  
+Before you run the npx expo start though you should go to node modules and remove instances of the ViewPropTypes import in react native and import it from deprecated react native props instead. This is located in the react-native-snap-carousel folder under the src. After that running the app should work. To make the app work with the database you need to do the steps below.
 
 ### Backend Directory
 Navigate to the backend directory (start from the main directory) :
