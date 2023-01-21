@@ -69,6 +69,7 @@ const ProfileScreen = () => {
   const [transaction, setTransaction] = useState('');
   const [card, setCard] = useState('');
   const [expirations, setExpiration] = useState('');
+  const [expirationsY, setExpirationY] = useState('');
   const [description, setDescription] = useState('');
   const [security, setSecurity] = useState('');
   const [showBox, setShowBox] = useState(true);
@@ -217,8 +218,8 @@ const ProfileScreen = () => {
       output.push(
         <TouchableHighlight underlayColor={'transparent'} key={object.id} onPress={() => console.log("Pressed")}>
           <View style={styles.box}>
-            <Text style={styles.newText}>{items.data !== undefined ? (items.data[cont].id.length < 29 ? items.data[cont].id : items.data[cont].id.substr(0,30) + ".." ) : "Undefined"}</Text>
-            <Text style={styles.subText}>{object.game_title !== undefined ? object.game_title : "Undefined"}</Text>
+            <Text style={styles.newText}>{object.game_title !== undefined ? object.game_title : "Undefined"}</Text>
+            <Text style={styles.subText}>{items.data !== undefined ? (items.data[cont].id.length < 39 ? items.data[cont].id : items.data[cont].id.substr(0,40) + ".." ) : "Undefined"}</Text>
             <Text style={styles.subText}>{items.data !== undefined ? items.data[cont].payment_method_id : "Undefined"}</Text>
             <Text style={styles.subText}>{items.data !== undefined ? items.data[cont].createdAt : "Undefined"}</Text> 
           </View>
@@ -478,15 +479,28 @@ const ProfileScreen = () => {
            placeholder=" Your card number"
            style={styles.input}
            value={card} 
-           onChangeText={text => setCard(text)}/>
+           onChangeText={text => setCard(text)}
+           maxLength={16}
+           />
   
           <Text style={styles.kext}>Expiration Date</Text>
           <TextInput
            mode="outlined"
-           placeholder= "The date of expiration"
-           style={styles.input} 
+           placeholder= "M"
+           style={styles.inputS} 
            value={expirations} 
-           onChangeText={text => setExpiration(text)}/>
+           onChangeText={text => setExpiration(text)}
+           maxLength={2}
+           />
+          <Text style={styles.slash}>/</Text>
+          <TextInput
+           mode="outlined"
+           placeholder= "Y"
+           style={styles.inputX} 
+           value={expirationsY} 
+           onChangeText={text => setExpirationY(text)}
+           maxLength={2}
+           />
 
           <Text style={styles.kext}>Security Code</Text>
           <TextInput
@@ -508,9 +522,9 @@ const ProfileScreen = () => {
           <Button 
             onPress={ async () => {
                 console.log("Button pressed");
-                if(security && expirations.length >= 5 && card.length >= 16 && expirations.length < 6){
+                if(security && card.length >= 16 && expirations.length == 2 && expirationsY.length == 2){
                   try {
-                    const result : any = await createPaymentData(card, expirations, description);
+                    const result : any = await createPaymentData(card, expirations + "/" + expirationsY, description);
                     if(result === undefined){ 
                         alert("Connection Error");
                     }
@@ -619,6 +633,25 @@ const styles = EStyleSheet.create({
     width: "90%",
     alignSelf: "center",
 },
+
+  slash: {
+    width: "15%",
+    left: "5.8rem",
+    position: "absolute",
+    top: "14.5rem",
+  },
+
+  inputS: {
+    width: "15%",
+    left: "1.2rem",
+    position: "absolute",
+    top: "13.1rem",
+  },
+
+  inputX: {
+    width: "15%",
+    left: "7rem",
+  },
 
   loginRedirect: {
       paddingTop: "3%",
