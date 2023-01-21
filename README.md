@@ -88,6 +88,6 @@ Please make sure that you have all the dependencies installed for this program t
 
 # Changes Made  
 
-![alt text](path/to/Screenshot_20230121-163506_Expo_Go.jpg)
+![alt text](Images/Screenshot_20230121-163506_Expo_Go.jpg)
 
-![alt text](path/to/Screenshot_20230121-163514_Expo_Go.jpg)
+![alt text](Images/Screenshot_20230121-163514_Expo_Go.jpg)
