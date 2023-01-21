@@ -88,5 +88,7 @@ Please make sure that you have all the dependencies installed for this program t
 
 # Changes Made  
 
-<img src="Images/Screenshot_20230121-163506_Expo_Go.jpg" width="300" height="500">
-<img src="Images/Screenshot_20230121-163514_Expo_Go.jpg" width="300" height="500">
+<img src="Images/Screenshot_20230121-163506_Expo_Go.jpg" width="300" height="500">  
+Transaction Id moved as subheading and title is now the heading.
+<img src="Images/Screenshot_20230121-163514_Expo_Go.jpg" width="300" height="500">  
+Added a month and year seperator for easier input and limits put in place.
